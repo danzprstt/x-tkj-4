@@ -1464,12 +1464,13 @@ function subscribeRealtime() {
 // ════════════════════════════════
 const PIKET = [
   { day:'Senin',    names:['LIBUR'] },
-  { day:'Selasa',   names:['Nama 4','Nama 5','Nama 6'] },
-  { day:'Rabu',     names:['Nama 7','Nama 8','Nama 9'] },
+  { day:'Selasa',   names:['adha','yunita','arfand','uswatun','agus','suci','alsyifa','soba','anisa','shela'] },
+  { day:'Rabu',     names:['ariffa', 'salwa', 'audia', 'aidhil', 'aura', 'rizallul', 'cantika', 'rico','dewi', 'dea'] },
   { day:'Kamis',    names:['LIBUR']},
-  { day:'Jumat',    names:['Nama 13','Nama 14'] },
-  { day:'Sabtu',    names:['Nama 15','Nama 16'] },
+  { day:'Jumat',    names:['dian', 'azzam', 'elis', 'rafael', 'haykal', 'nurul', 'ihsan', 'nafisatu', 'kania'] },
+  { day:'Sabtu',    names:['karline', 'syahrul', 'karlytos', 'rafif', 'maliki', 'khadafi', 'melly', 'rava', 'wildan'] },
 ];
+
 
 function buildPiket() {
   const grid = document.getElementById('piketGrid');
@@ -1489,8 +1490,9 @@ function buildPiket() {
 //  COUNTDOWN
 // ════════════════════════════════
 // Ganti tanggal target sesuai ujian kelas
-const COUNTDOWN_TARGET = new Date('2027-05-01T07:00:00');
-const COUNTDOWN_LABEL  = 'Menuju Ujian Akhir Semester';
+const COUNTDOWN_TARGET = new Date('2027-01-01T07:00:00');
+const COUNTDOWN_LABEL  = 'Menuju PKL ( Praktik Kerja Lapangan )
+  ';
 
 function updateCountdown() {
   const now  = new Date();
